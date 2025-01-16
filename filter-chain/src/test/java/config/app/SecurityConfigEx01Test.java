@@ -77,5 +77,4 @@ public class SecurityConfigEx01Test {
     		.andExpect(cookie().value("SecurityFilterEx04", "Works"))
     		.andDo(print());
     }
-    
 }
